@@ -5,188 +5,162 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ramiro Dias | CV</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>
-    <nav class="navbar fixed-top navbar-expand bg-body-tertiary">
-      <div class="container-fluid">
-        <!-- LEFT: text links -->
-        <div class="navbar-nav">
-          <a class="nav-link" href="index.html">Home</a>
-          <a class="nav-link" href="contact.html">Contact</a>
-        </div>
+  <header>
+    <nav class="navbar">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ol>
 
-        <!-- RIGHT: social icons -->
-        <div class="navbar-nav ms-auto d-flex flex-row gap-3">
-          <a
-            class="nav-link"
-            href="https://www.linkedin.com/in/ramirodiasavila/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn"
-          >
-            <img
-              src="images/linkedin.svg"
-              alt="LinkedIn"
-              class="img-fluid"
-              width="24"
-              height="24"
-            />
-          </a>
-
-          <a
-            class="nav-link"
-            href="https://github.com/RamiroDias"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub"
-          >
-            <img
-              src="images/github.svg"
-              alt="GitHub"
-              class="img-fluid"
-              width="24"
-              height="24"
-            />
-          </a>
-        </div>
-      </div>
+      <ol>
+        <li>
+          <a href="https://github.com/RamiroDias" target="_blank"
+            ><img src="images/github.png" alt="GitHub"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/ramirodiasavila/" target="_blank"
+            ><img src="images/linkedin.svg" alt="LinkedIn"
+          /></a>
+        </li>
+      </ol>
     </nav>
+  </header>
 
-    <div class="container mt-5 pt-5">
-      <h1 style="text-align: center">Ramiro Valentin Dias Avila</h1>
-    </div>
+  <body>
+    <br />
+    <h1>Ramiro Valentin Dias Avila</h1>
     <br />
 
-    <div class="accordion">
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button
-            class="accordion-button"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseOne"
-            aria-expanded="true"
-            aria-controls="panelsStayOpen-collapseOne"
-          >
-            About Me
-          </button>
-        </h2>
-        <div
-          id="panelsStayOpen-collapseOne"
-          class="accordion-collapse collapse show"
-        >
-          <div class="accordion-body">
-            Coming from Argentina to the UK to study Electronic and Computer
-            Engineering at the University of Nottingham, I aimed to develop my
-            technical knowledge and skills to the highest standards. After four
-            years, I graduated with First Class Honours, gaining a strong
-            foundation in both hardware and software through my studies and
-            projects. Having lived and studied in Argentina and the UK, I bring
-            an international perspective, adaptability and a collaborative
-            mindset. I am seeking an engineering role where I can continue
-            learning and contribute to projects that make a meaningful impact.
-          </div>
-        </div>
-      </div>
+    <details>
+      <summary>
+        <strong
+          >Personal Statement
+          <hr
+        /></strong>
+      </summary>
 
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button
-            class="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseTwo"
-            aria-expanded="false"
-            aria-controls="panelsStayOpen-collapseTwo"
-          >
-            Education
-          </button>
-        </h2>
-        <div
-          id="panelsStayOpen-collapseTwo"
-          class="accordion-collapse collapse"
-        >
-          <div class="accordion-body">
-            <div class="accordion">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseTwoOne"
-                    aria-expanded="true"
-                    aria-controls="panelsStayOpen-collapseTwoOne"
-                  >
-                    <span>University of Nottingham</span>
-                    <span >Nottingham, UK (Sep 21 - Jul 25)</span>
-                  </button>
-                </h2>
-                <div
-                  id="panelsStayOpen-collapseTwoOne"
-                  class="accordion-collapse collapse show"
-                >
-                  <div class="accordion-body">
-                    Coming from Argentina to the UK to study Electronic and
-                    Computer Engineering at the University of Nottingham, I
-                    aimed to develop my technical knowledge and skills to the
-                    highest standards. After four years, I graduated with First
-                    Class Honours, gaining a strong foundation in both hardware
-                    and software through my studies and projects. Having lived
-                    and studied in Argentina and the UK, I bring an
-                    international perspective, adaptability and a collaborative
-                    mindset. I am seeking an engineering role where I can
-                    continue learning and contribute to projects that make a
-                    meaningful impact.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button
-            class="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseThree"
-            aria-expanded="false"
-            aria-controls="panelsStayOpen-collapseThree"
-          >
-            Accordion Item #3
-          </button>
-        </h2>
-        <div
-          id="panelsStayOpen-collapseThree"
-          class="accordion-collapse collapse"
-        >
-          <div class="accordion-body">
-            <strong>This is the third item’s accordion body.</strong> It is
-            hidden by default, until the collapse plugin adds the appropriate
-            classes that we use to style each element. These classes control the
-            overall appearance, as well as the showing and hiding via CSS
-            transitions. You can modify any of this with custom CSS or
-            overriding our default variables. It’s also worth noting that just
-            about any HTML can go within the <code>.accordion-body</code>,
-            though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-    </div>
+      <p>
+        Curious and proactive First-Class Electronic and Computer Engineering
+        graduate with a strong interest in cybersecurity and IT. Strong
+        foundation in networking, data and software engineering, with hands-on
+        experience through simulations and projects. Seeking a role where I can
+        apply my analytical skills, expand my expertise and advance my career in
+        cybersecurity and IT.
+      </p>
+    </details>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
+    <details>
+      <summary>
+        <strong
+          >Education
+          <hr
+        /></strong>
+      </summary>
+
+      <details>
+        <summary>
+          <span><strong>University of Nottingham</strong></span
+          ><span style="float: right"
+            ><strong>Nottingham, UK (Sep 21 - Jul 25)</strong></span
+          >
+        </summary>
+        <ul>
+          <li>MEng Hons. Electronic and Computer Engineering</li>
+          <li>
+            First Year Grade: 84% (1st) | Second Year Grade: 87% (1st) | Third
+            Year Grade: 81% (1st) | Fourth Year Grade: 82% (1st)
+          </li>
+        </ul>
+        <details class="details-inner">
+          <summary><span class="summary-text">Modules:</span></summary>
+
+          <div class="details-grid">
+            <details>
+              <summary><u>Year 1:</u></summary>
+              <ul>
+                <li>
+                  Introduction to Software Engineering and Programing (99%)
+                </li>
+                <li>Applied Electrical and Electronic Engineering (74%)</li>
+                <li>Power and Energy (87%)</li>
+                <li>Information and Systems (90%)</li>
+                <li>Engineering Mathematics (92%)</li>
+                <li>Contemporary Engineering Themes A (78%)</li>
+              </ul>
+            </details>
+
+            <details>
+              <summary><u>Year 2:</u></summary>
+              <ul>
+                <li>Design and implementation of Engineering Software (94%)</li>
+                <li>Electronic Processing and Communications (89%)</li>
+                <li>Electrical Energy Conditioning and Control (85%)</li>
+                <li>
+                  Practical Engineering Design Solutions and Project Development
+                  (84%)
+                </li>
+                <li>Modelling Methods and Tools (90%)</li>
+                <li>Contemporary Engineering Themes B (85%)</li>
+              </ul>
+            </details>
+
+            <details>
+              <summary><u>Year 3:</u></summary>
+              <ul>
+                <li>Scalable cross-platform software design (90%)</li>
+                <li>IT Infrastructure and Cybersecurity (87%)</li>
+                <li>Analogue Electronics (78%)</li>
+                <li>Group Project (69%)</li>
+                <li>Embedded Computing (94%)</li>
+                <li>Advanced Engineering Maths (92%)</li>
+                <li>Professional Studies (74%)</li>
+              </ul>
+            </details>
+
+            <details>
+              <summary><u>Year 4:</u></summary>
+              <ul>
+                <li>
+                  Applications of AI in Electrical and Electronic Engineering
+                  (81%)
+                </li>
+                <li>Advanced Computational Engineering (90%)</li>
+                <li>Inter Faculty Italian 1a (76%)</li>
+                <li>Industrial/Research Oriented Project (77%)</li>
+                <li>Artificial Intelligence And Intelligent Systems (83%)</li>
+                <li>HDL for Programmable Devices (89%)</li>
+              </ul>
+            </details>
+          </div>
+        </details>
+      </details>
+
+      <details>
+        <summary>
+          <span><strong>St. George’s College</strong></span
+          ><span style="float: right"
+            ><strong>Quilmes, Argentina (Feb 16 – Dec 20)</strong></span
+          >
+        </summary>
+
+        <details class="details-inner">
+          <summary><span class="summary-text">Modules:</span></summary>
+
+          <div class="details-grid"></div>
+        </details>
+
+        <ul>
+          <li>International Baccalaureate (November 2020): 37 Points</li>
+          <li>
+            IGCSEs (November 2018): 4 A*s and 4As including best physics and
+            chemistry grade in Argentina
+          </li>
+        </ul>
+      </details>
+    </details>
   </body>
 </html>
