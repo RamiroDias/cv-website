@@ -76,3 +76,19 @@ details li::marker {
   margin-top: 8px;
   margin-left: 100px;
 }
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+input, textarea, button{
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
